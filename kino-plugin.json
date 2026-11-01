@@ -1,8 +1,8 @@
 {
   "id": "theme-ki-desatado",
   "name": "Ki Desatado",
-  "version": "1.0.2",
-  "apiVersion": 17,
+  "version": "1.0.3",
+  "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
   "description": "Naranja de combate sobre azul noche, para quien entrena más allá de su límite.",
