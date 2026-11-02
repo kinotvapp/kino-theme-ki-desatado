@@ -1,11 +1,11 @@
 {
   "id": "theme-ki-desatado",
-  "name": "Ki Desatado",
-  "version": "1.0.4",
+  "name": "Goku",
+  "version": "1.1.0",
   "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
-  "description": "Naranja de combate sobre azul noche, para quien entrena más allá de su límite.",
+  "description": "Naranja de combate y azul del cinturón sobre un cielo de entrenamiento: el ki al máximo.",
   "author": "kinotvapp",
   "hosts": [],
   "categories": [
@@ -15,8 +15,8 @@
     "screen"
   ],
   "screen": {
-    "label": "Ki Desatado",
-    "labelEn": "Unleashed Ki",
+    "label": "Goku",
+    "labelEn": "Goku",
     "opensFrom": [
       "settings"
     ],
@@ -29,16 +29,16 @@
     {
       "id": "ki-desatado",
       "name": {
-        "es": "Ki Desatado",
-        "en": "Unleashed Ki"
+        "es": "Goku",
+        "en": "Goku"
       },
       "colors": {
-        "accent": "#FF8A1F",
-        "onAccent": "#1C0B00",
-        "background": "#0A1230",
-        "surface": "#131D45",
-        "surfaceHigh": "#1E2A5C",
-        "railPanel": "#0E1738"
+        "accent": "#FF7A00",
+        "onAccent": "#1A0A00",
+        "background": "#060B1F",
+        "surface": "#0F1A40",
+        "surfaceHigh": "#1A2A5E",
+        "railPanel": "#0A1230"
       },
       "shape": {
         "cardRadius": 20,
@@ -60,9 +60,9 @@
       "adjustable": {
         "colors.accent": {
           "swatches": [
-            "#FF8A1F",
-            "#FFD23F",
-            "#4F9BFF"
+            "#FF7A00",
+            "#FFD60A",
+            "#3B82F6"
           ]
         },
         "shape.cardRadius": {
@@ -77,14 +77,48 @@
       "background": {
         "type": "gradient",
         "colors": [
-          "#0A1230",
-          "#1A2C78"
+          "#060B1F",
+          "#153282"
         ],
-        "angle": 180
+        "angle": 200
       },
       "price": {
         "kinos": 10,
         "payTo": "8b97f0011f9d4594d269edc4afb3a0ee10e394abf54b0a40d90ca83f8f7d6a0e"
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M -104 0 A 104 104 0 1 1 104 0 A 104 104 0 1 1 -104 0 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -100 0 A 100 100 0 1 1 100 0 A 100 100 0 1 1 -100 0 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M -78 -30 A 82 82 0 0 1 -30 -78 L -38 -62 A 66 66 0 0 0 -62 -38 Z",
+              "fill": "#FFC266"
+            },
+            {
+              "d": "M -27.0 -47.0 L -22.0 -33.9 L -8.0 -33.2 L -18.9 -24.4 L -15.2 -10.8 L -27.0 -18.5 L -38.8 -10.8 L -35.1 -24.4 L -46.0 -33.2 L -32.0 -33.9 Z M 27.0 -47.0 L 32.0 -33.9 L 46.0 -33.2 L 35.1 -24.4 L 38.8 -10.8 L 27.0 -18.5 L 15.2 -10.8 L 18.9 -24.4 L 8.0 -33.2 L 22.0 -33.9 Z M -27.0 7.0 L -22.0 20.1 L -8.0 20.8 L -18.9 29.6 L -15.2 43.2 L -27.0 35.5 L -38.8 43.2 L -35.1 29.6 L -46.0 20.8 L -32.0 20.1 Z M 27.0 7.0 L 32.0 20.1 L 46.0 20.8 L 35.1 29.6 L 38.8 43.2 L 27.0 35.5 L 15.2 43.2 L 18.9 29.6 L 8.0 20.8 L 22.0 20.1 Z",
+              "fill": "#C8201E"
+            },
+            {
+              "d": "M -386 -132 A 33 33 0 1 1 -320 -132 A 33 33 0 1 1 -386 -132 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -383 -132 A 30 30 0 1 1 -323 -132 A 30 30 0 1 1 -383 -132 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M -353.0 -151.0 L -348.3 -138.5 L -334.9 -137.9 L -345.4 -129.5 L -341.8 -116.6 L -353.0 -124.0 L -364.2 -116.6 L -360.6 -129.5 L -371.1 -137.9 L -357.7 -138.5 Z",
+              "fill": "#C8201E"
+            }
+          ]
+        }
       }
     }
   ]
