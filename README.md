@@ -1,10 +1,10 @@
-<img src="icon.png" width="128" alt="Ki Desatado">
+<img src="icon.png" width="128" alt="Goku">
 
-# Ki Desatado
+# Goku
 
-Naranja de combate sobre azul noche, para quien entrena más allá de su límite.
+Naranja de combate y azul del cinturón sobre un cielo de entrenamiento: el ki al máximo.
 
-Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo y las formas de toda la app, trae una pantalla de presentación y no se conecta a internet.
+Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo, las formas y el logo de toda la app, trae una pantalla de presentación y no se conecta a internet.
 
 En Kino, escribe `kinotvapp/kino-theme-ki-desatado` en **Plugins ▸ Agregar un plugin**. Después ábrelo y pulsa **Activar**.
 
