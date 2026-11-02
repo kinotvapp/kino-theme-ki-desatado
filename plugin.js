@@ -1,5 +1,5 @@
 // A theme's presentation, drawn with the screen kit in whichever theme is active.
-const THEME = {"id": "ki-desatado", "es": "Ki Desatado", "en": "Unleashed Ki", "hook": "Sube tu poder hasta que la pantalla tiemble.", "hookEn": "Raise your power until the screen shakes.", "desc": "Naranja de combate sobre azul noche, para quien entrena más allá de su límite."};
+const THEME = {"id": "ki-desatado", "es": "Goku", "en": "Goku", "hook": "Más fuerte que ayer, más débil que mañana.", "hookEn": "Stronger than yesterday, weaker than tomorrow.", "desc": "Naranja de combate y azul del cinturón sobre un cielo de entrenamiento: el ki al máximo."};
 const t = (es, en) => ({ text: es, textEn: en });
 
 export async function screen({ activeTheme }) {
